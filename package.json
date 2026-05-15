@@ -1,0 +1,16 @@
+{
+  "name": "agent-driven-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lightning talk demo: same AI analysis, two visitor classes (human + agent), two surfaces.",
+  "workspaces": [
+    "web",
+    "agent-harness"
+  ],
+  "scripts": {
+    "dev": "npm --workspace=web run dev",
+    "build": "npm --workspace=web run build",
+    "deploy": "cd web && vercel --prod",
+    "measure": "npm --workspace=agent-harness run measure"
+  }
+}

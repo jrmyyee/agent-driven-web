@@ -1,0 +1,22 @@
+{
+  "name": "agent-driven-web-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run:html": "tsx run-html.ts",
+    "run:mcp": "tsx run-mcp.ts",
+    "measure": "tsx measure.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/mcp": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "ai": "^6.0.0",
+    "playwright": "^1.59.0",
+    "tsx": "^4.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}

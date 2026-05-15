@@ -1,0 +1,46 @@
+node_modules/
+.next/
+.vercel/
+dist/
+.env
+.env.local
+.env*.local
+*.log
+.DS_Store
+
+# build outputs
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+
+# agent-harness measurement outputs (regenerated)
+agent-harness/results.md
+agent-harness/runs/
+
+# pre-recorded demo videos (kept locally, not in repo)
+recordings/
+*.mov
+*.mp4
+
+# generated slide QA thumbnails
+slides/assets/deck-preview.png
+slides/assets/slide-*-check.png
+
+# internal build notes (kept locally, not in public repo)
+SPEC.md
+PRESENTATION.md
+DEMO.md
+SATURDAY.md
+AGENTS.md
+CLAUDE.md
+MCP_NOTES.md
+TRANSCRIPT.md
+
+# slide source + assets (PDF is the public artifact; source kept locally)
+slides/agent-driven-web.html
+slides/README.md
+slides/assets/
+.vercel
